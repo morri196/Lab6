@@ -17,7 +17,7 @@ public class DiceRollerApp {
 			int num2 = rollTheDice(sides);//same
 			
 			System.out.println("Roll " + count);
-			count = count + 1;
+			count = count + 1;//counts amount of time dice are rolled
 			System.out.println("" + num1 + " " + num2);//print both numbers
 			System.out.println(callSpecial(num1, num2));//print from method callSpecial whether they roll is craps, not special, boxcars, or snalke eyes
 			System.out.println("Do you want to roll again? (y/n)");//prompt user to play again
